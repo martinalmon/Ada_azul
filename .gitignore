@@ -1,0 +1,50 @@
+# Dart / Flutter
+.dart_tool/
+.packages
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets / local configuration
+.env
+.env.*
+!.env.example
+**/config/prod.json
+**/config/dev.json
+**/config/local.json
+**/secrets.json
+**/credentials.json
+**/credentials.*
+
+# Android local/signing secrets
+**/android/local.properties
+**/android/key.properties
+*.jks
+*.keystore
+
+# Certificates / private keys
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs / temp
+*.log
+*.tmp
